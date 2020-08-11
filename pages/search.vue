@@ -6,12 +6,13 @@
       <button class="c25" @click="handleForm">GO!!!</button>
     </div>
     <div class="row">
+      <small class="text-center mt mb row">Media Type (optional)</small>
       <span class="flex-wrapper text-center">
-        <div class="c50">
-          <input id="images-checkbox" type="checkbox">
+        <div class="flex-item c50">
+          <input id="images-checkbox" type="checkbox" checked>
           <label for="images-checkbox">Images</label>
         </div>
-        <div class="c50">
+        <div class="flex-item c50">
           <input id="audio-checkbox" type="checkbox">
           <label for="audio-checkbox">Audio</label>
         </div>
