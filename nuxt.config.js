@@ -9,5 +9,8 @@ module.exports = {
   loading: { color: '#b56d82' },
   build: {
     optimizeCSS: true
-  }
+  },
+  modules: [
+    "@nuxtjs/axios",
+  ]
 }

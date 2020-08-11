@@ -27,7 +27,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 body {
   background: var(--background);
   color: var(--text);
-  font-size: 32px;
+  font-size: 24px;
   font-family: monospace;
 }
 
