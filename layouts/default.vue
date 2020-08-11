@@ -87,7 +87,11 @@ textarea {
 }
 
 button[disabled] {
-  background: rgba(164, 55, 116, 0.04);
+  opacity: 0.2;
+}
+
+button[disabled]:hover {
+  cursor: not-allowed;
 }
 
 button:hover:not(:disabled) {

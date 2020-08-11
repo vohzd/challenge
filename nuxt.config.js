@@ -12,5 +12,8 @@ module.exports = {
   },
   modules: [
     "@nuxtjs/axios",
-  ]
+  ],
+  router: {
+    base: "/"
+  }
 }

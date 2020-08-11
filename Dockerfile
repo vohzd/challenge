@@ -1,4 +1,5 @@
 FROM node:13.13.0-alpine
+RUN apk update && apk upgrade
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY ./package.json /usr/src/app/
