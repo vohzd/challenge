@@ -17,21 +17,44 @@
         </div>
       </span>
     </div>
+
+
+    <section class="output">
+      <!-- this will become its own component soon enough -->
+
+      <div class="flex-grid">
+        <div v-for="i in 32" class="flex-grid-item mock-asset">
+          {{ i }}
+        </div>
+      </div>
+
+
+    </section>
+
+
   </main>
 </template>
 
 
 <script>
-
-export default {
-
-  methods: {
-    handleForm(){
-      console.log("clicked");
-      this.$router.push("/asset/something");
+  export default {
+    methods: {
+      handleForm(){
+        console.log("searched for something....");
+      },
+      handleAsset(){
+        this.$router.push("/asset/something");
+      }
     }
   }
-
-}
-
 </script>
+
+<style>
+
+  .mock-asset {
+    min-height: 64px;
+    min-width: 64px;
+    background: rgba(0,0,0,0.2);
+  }
+
+</style>

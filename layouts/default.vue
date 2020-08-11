@@ -114,6 +114,17 @@ button::-moz-focus-inner {
   display: flex;
 }
 
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+.flex-grid-item {
+  flex-grow: 1;
+}
+
 .c100 {
   width: 100%;
 }
