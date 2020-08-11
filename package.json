@@ -1,0 +1,17 @@
+{
+  "name": "challenge",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/challenge.git"
+  },
+  "homepage": "https://github.com/vohzd/challenge#readme",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.1",
+    "nuxt": "^2.14.1"
+  }
+}
